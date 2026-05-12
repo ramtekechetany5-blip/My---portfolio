@@ -1,0 +1,180 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+  color:white;
+  scroll-behavior:smooth;
+}
+
+/* Hero Section */
+
+.hero{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.hero h1{
+  font-size:70px;
+  margin-bottom:10px;
+  color:#38bdf8;
+}
+
+.hero p{
+  font-size:24px;
+  margin-bottom:20px;
+  color:#cbd5e1;
+}
+
+/* Hire Button */
+
+.hire-btn{
+  text-decoration:none;
+  background:#38bdf8;
+  color:white;
+  padding:12px 25px;
+  border-radius:10px;
+  font-size:18px;
+  transition:0.3s;
+}
+
+.hire-btn:hover{
+  background:#0ea5e9;
+  transform:scale(1.05);
+}
+
+/* About Section */
+
+.about{
+  padding:80px 20px;
+  text-align:center;
+  background:#1e293b;
+}
+
+.about h2{
+  font-size:40px;
+}
+
+.about p{
+  font-size:18px;
+  max-width:600px;
+  margin:auto;
+}
+
+/* Services Section */
+
+.services{
+  padding:80px 20px;
+  text-align:center;
+}
+
+.services h2{
+  font-size:40px;
+}
+
+/* Cards */
+
+.card{
+  background:#1e293b;
+  padding:30px;
+  margin:20px auto;
+  max-width:400px;
+  border-radius:15px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+/* Contact Section */
+
+.contact{
+  padding:80px 20px;
+  text-align:center;
+  background:#1e293b;
+}
+
+.contact h2{
+  font-size:40px;
+}
+
+.contact a{
+  color:#38bdf8;
+  text-decoration:none;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 50px;
+  background:#1e293b;
+  position:sticky;
+  top:0;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+}
+
+.nav-links a:hover{
+  color:#38bdf8;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+section{
+  animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity:0;
+    transform:translateY(30px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+}html{
+  scroll-behavior:smooth;
+}
+
+section{
+  animation:fadeIn 1s ease;
+}
+@media(max-width:768px){
+
+  nav{
+    flex-direction:column;
+    padding:20px;
+  }
+
+  .nav-links{
+    margin-top:15px;
+  }
+
+  .hero h1{
+    font-size:45px;
+  }
+
+  .hero p{
+    font-size:18px;
+  }
+
+  .about h2,
+  .services h2,
+  .contact h2{
+    font-size:30px;
+  }
+
+}
