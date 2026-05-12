@@ -1,7 +1,7 @@
 body{
   margin:0;
   font-family:Arial;
-  background:#0f172a;
+  background:#1e293b;
   color:white;
   scroll-behavior:smooth;
 }
@@ -51,7 +51,7 @@ body{
 .about{
   padding:80px 20px;
   text-align:center;
-  background:#1e293b;
+  background:#1a2233;
 }
 
 .about h2{
@@ -78,7 +78,7 @@ body{
 /* Cards */
 
 .card{
-  background:#1e293b;
+  background:#0f172a;
   padding:30px;
   margin:20px auto;
   max-width:400px;
@@ -181,12 +181,12 @@ section{
 footer{
   text-align:center;
   padding:20px;
-  background:#0f172a;
+  background:#1a2233;
 }
 .projects{
   padding:80px 20px;
   text-align:center;
-  background:#0f172a;
+  background:#1a2233;
 }
 
 .projects h2{
@@ -194,7 +194,7 @@ footer{
 }
 
 .card{
-  background:#1e293b;
+  background:#334155;
   padding:30px;
   margin:20px auto;
   max-width:400px;
